@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import py3Dmol 
 from io import StringIO
+git clone https://github.com/your-username/streamlit-dark-theme-app.git
+cd streamlit-dark-theme-app
+touch app.py
 st.markdown("""
     <style>
         body {
@@ -25,5 +28,11 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-st.title("Dark Gray Background with Black Borders")
+st.title("Dark Gray Background with Black Borders")  # Title of the app
 st.write("This is a Streamlit app with a custom dark theme!")
+venv\Scripts\activate
+pip freeze > requirements.txt
+git add app.py requirements.txt
+git commit -m "Added Streamlit app with dark theme and custom styling"
+git push origin main
+streamlit run app.py
