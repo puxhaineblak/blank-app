@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import py3Dmol 
 from io import StringIO
-git clone https://github.com/your-username/streamlit-dark-theme-app.git
 cd streamlit-dark-theme-app
 touch app.py
 st.markdown("""
